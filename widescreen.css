@@ -1,0 +1,21 @@
+body {
+  padding: 50px 195px;
+  background-image: url("./images/bg-top.svg"), url("./images/bg-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left bottom;
+}
+
+.cards {
+  grid-gap: 0 -25px;
+}
+
+.cards .price-main-card {
+  height: 520px;
+  justify-content: center;
+  z-index: 5;
+}
+
+.cards .price-sub-card {
+  margin-top: 35px;
+  height: 454px;
+}
